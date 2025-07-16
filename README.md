@@ -1,12 +1,32 @@
-# React + Vite
+StreamPot - Your Movie Browsing Hub
+StreamPot is a modern, responsive web application built with React that allows users to discover popular movies from The Movie Database (TMDB) API. It features movie search, trending movie display, and a pagination system for easy navigation through extensive movie lists.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Browse Popular Movies: Discover a curated list of popular movies from TMDB.
 
-Currently, two official plugins are available:
+Movie Search: Search for specific movies by title with a debounced input for efficient API calls.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pagination: Seamlessly navigate through multiple pages of movie results.
 
-## Expanding the ESLint configuration
+Trending Movies: See a list of currently trending movies. Integrates with Appwrite to track popular search terms.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Movie Details: View essential information for each movie, including title, rating, language, and release year.
+
+"Watch" Functionality: (Experimental) Attempt to play movies via an embedded third-party streaming service (Vidsrc.icu). 
+
+Responsive Design: Optimized for a smooth experience across various devices (mobile, tablet, desktop).
+
+
+🚀 Technologies Used
+React.js: A JavaScript library for building user interfaces.
+
+Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
+
+TMDB API: The Movie Database API for fetching movie data.
+
+Appwrite: An open-source backend-as-a-service platform used for fetching trending movies and updating search counts.
+
+Vidsrc.icu: (Third-Party Embedding Service) Used for embedding movie streams.
+
+🤝 Contributing
+Contributions are welcome! If you have suggestions for improvements or find any bugs, please open an issue or submit a pull request.
